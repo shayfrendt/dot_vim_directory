@@ -22,9 +22,6 @@
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = git@github.com:duff/vim-rails.git
 [submodule "bundle/vim-rubytest"]
 	path = bundle/vim-rubytest
 	url = git://github.com/janx/vim-rubytest.git
