@@ -64,3 +64,6 @@
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = http://github.com/tpope/vim-rails.git
+[submodule "bundle/textile"]
+	path = bundle/textile
+	url = http://github.com/timcharper/textile.vim.git
