@@ -1,4 +1,3 @@
- 
 " ---------------------------------------------------------------------------
 " General
 " ---------------------------------------------------------------------------
@@ -196,6 +195,7 @@ set grepprg=ack
 set grepformat=%f:%l:%m
 
 inoremap <expr> <C-n> pumvisible() ? '<C-n>' : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+" inoremap <silent> gw "_yiw:s/\\(\\%#\\w\\+\\)\\(\\W\\+\\)\\(\\w\\+\\)/\\3\\2\\1/<CR><c-o><c-l>
 
 set completeopt=longest,menu,preview        " insert mode comletion options
 set complete=.
