@@ -215,6 +215,10 @@ augroup markdown
   autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:>
 augroup END
 
+augroup god
+  autocmd BufRead *.god set filetype=ruby
+augroup END
+
 let g:liquid_highlight_types=["html","erb=eruby","html+erb=eruby.html"]
 
 
