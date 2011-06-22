@@ -67,9 +67,6 @@
 [submodule "bundle/textile"]
 	path = bundle/textile
 	url = http://github.com/timcharper/textile.vim.git
-[submodule "bundle/taskpaper"]
-	path = bundle/taskpaper
-	url = http://github.com/davidoc/taskpaper.vim.git
 [submodule "bundle/cocoa"]
 	path = bundle/cocoa
 	url = https://github.com/msanders/cocoa.vim.git
